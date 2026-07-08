@@ -1,5 +1,5 @@
 import sqlite3
-import app_api_list0
+import src.app_api_list0 as app_api_list0
 
 DB_NAME = 'Movieinfo_Final.db'
 def init_db():

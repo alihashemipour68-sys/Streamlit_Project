@@ -1,7 +1,7 @@
 import streamlit as st
-import Final_Func_db
-import Final_Creat_db
-import app_api_list0
+import src.Final_Func_db as Final_Func_db
+import src.Final_Creat_db as Final_Creat_db
+import src.app_api_list0 as app_api_list0
 
 
 st.title('Search Film According to Your Idea')
